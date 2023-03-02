@@ -2,7 +2,7 @@ body{
   margin: 0;
   padding: 0;
   background: url(imgs/bg.png) no-repeat;
-  background-size: 250%;
+  background-size: 110%;
 }
 footer{
 	font-family: 'Acme',sans-serif;
@@ -40,10 +40,9 @@ footer{
   font-weight: 100;
 }
 .box p{
-  text-align: justify;
-  letter-spacing: 1px;
-  
+  text-align: justify; 
 }
+
 ul{
   margin: 0;
   padding: 0;
@@ -52,13 +51,46 @@ ul{
   display: inline-block;
   margin: 6px;
   list-style: none;
+  /* float: left; */
+  /* clear: left; */
 }
+
 .box li a{
   color: white;
   text-decoration: none;
-  font-size: 60px;
+  font-size: 20px;
   transition: all ease-in-out 250ms;
 }
+
 .box li a:hover{
   color: #b9b9b9;
 }
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #648FB8;
+  color: white;
+}
+
+
