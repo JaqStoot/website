@@ -1,18 +1,29 @@
 body{
   margin: 0;
   padding: 0;
-  background: url(imgs/bg.png) no-repeat;
+  /* background: url(imgs/bg.png) no-repeat; */
+  background-color: #000013;
   background-size: 110%;
+  font-family: 'Acme',sans-serif;
 }
 footer{
 	font-family: 'Acme',sans-serif;
-	background-color: #000;
-	background: rgba(0, 0, 0, 0.4);
-	position: fixed;
+	/* background-color: #333; */
+	background: rgba(0, 0, 0);
+	position: absolute;
 	text-align: center;
 	color: white;
 	bottom: 0px;
 	width: 100%;
+  /* height: 2.5rem;    */
+}
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
 }
 .box{
   width: 450px;
@@ -92,5 +103,44 @@ ul{
   background-color: #648FB8;
   color: white;
 }
+
+.blog-directory {
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  width: 1000px;
+  border-radius: 5px;
+  padding: 40px;
+  margin-bottom: 20px;
+  margin: auto;
+}
+
+.blog-directory h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.blog-directory ul {
+  margin: 0;
+  padding: 0;
+}
+
+.blog-directory li {
+  margin-left: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.blog-directory a {
+  color: #333333;
+  text-decoration: none;
+  color: white;
+}
+
+.blog-directory a:hover {
+  text-decoration: underline;
+}
+
 
 
